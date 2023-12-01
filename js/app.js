@@ -192,7 +192,7 @@ const util = (() => {
       skew = Math.max(0.8, skew - 0.001);
 
       await confetti({
-        particleCount: 1,
+        particleCount: 2,
         startVelocity: 0,
         ticks: ticks,
         origin: {
